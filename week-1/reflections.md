@@ -13,3 +13,11 @@ A shell is an environment in where we can run commands, programs, and scripts. B
 pwd prints the working directory. ls lists the directory. mv moves a file or directory. cd changes the directory. ../ moves up a directory. touch makes empty files. mkdir makes a new directory. less pages through a file. rmdir removes a directory. rm removes a file. help displays a list of commands.
 
 # 1.4 Forking and Cloning Reflection
+
+To create a new repository on Github, login to your Github account, click the plus sign in the top righthand corner, and click "new repository." Give the repository a name and fill in the remaining information as desired before clicking "create repository."
+
+To fork a repo, go to the desired repository, click "fork" in the top righthand corner, and select your username.
+
+To clone a repo, open your terminal and enter your desired directory. Then, on Github, go to the repo that you want to clone and copy the URL under SSH/HTTPS. In the terminal, type "git clone COPIED_URL." You might be prompted to type in your Github username and password. Press enter and your repo will be cloned into the directory.
+
+Forking a repository is useful because it creates an exact copy of a repository that you can now edit without changing the original repository. This is useful when collaborating and dealing with large repositories. 
