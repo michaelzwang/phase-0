@@ -1,4 +1,4 @@
-![sitemap](/michaelzwang/phase-0/blob/master/week-2/imgs/site-map.JPG "site-map")
+![sitemap](https://raw.githubusercontent.com/michaelzwang/phase-0/master/week-2/imgs/site-map.JPG)
 
 ###What are the 6 Phases of Web Design?
 
