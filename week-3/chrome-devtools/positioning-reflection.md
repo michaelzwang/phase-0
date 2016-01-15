@@ -1,12 +1,12 @@
-![change the colors](/imgs/1changethecolors.png)
-![column](/imgs/2column.png)
-![row](/imgs/3row.png)
-![equidistant](/imgs/4makeequidistant.png)
-![squares](/imgs/5squares.png)
-![footer](/imgs/6footer.png)
-![header](/imgs/7header.png)
-![sidebar](/imgs/8sidebar.png)
-![getcreative](/imgs/9getcreative.png)
+![change the colors](./imgs/1changethecolors.png)
+![column](./imgs/2column.png)
+![row](./imgs/3row.png)
+![equidistant](./imgs/4makeequidistant.png)
+![squares](./imgs/5squares.png)
+![footer](./imgs/6footer.png)
+![header](./imgs/7header.png)
+![sidebar](./imgs/8sidebar.png)
+![getcreative](./imgs/9getcreative.png)
 
 ###How can you use Chrome's DevTools inspector to help you format or position elements?
 
