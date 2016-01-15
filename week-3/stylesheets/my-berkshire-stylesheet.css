@@ -1,0 +1,123 @@
+body {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+header {
+  font-weight: bold;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 1px;
+  padding-bottom: 0px;
+  display: inline;
+}
+header > p {
+  margin: 1px;
+  text-align: center;
+}
+h3 {
+  padding-top: 0px;
+  margin-left: 30px;
+  margin-top: 0px;
+  display: inline;
+}
+span {
+  font-size: 50px;
+}
+
+.linebreak {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+#left {
+  float: left;
+  width: 50%;
+}
+
+#right {
+  float: right;
+  width: 50%;
+}
+
+.test {
+  display: inline-block;
+  width: 33%;
+}
+
+.warren {
+  max-width: 33%;
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+
+li a {
+  font-size: 15px;
+}
+
+li {
+  font-size: 11px;
+}
+
+footer {
+  clear: both;
+}
+
+.geico {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.comments {
+  font-size: 11px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+it is important to know the pathways to the stylesheet.
+
+What tricks did you use to help you with positioning? 
+We created a border to help visualize what would change if we changed the margin or padding. We also used floats, display inline and relative positioning. 
+
+How hard was it to get the site as you wanted it?
+The general format was straight-forward. The difficult part was adding an image and positioning it the way we wanted.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+We used font-size, color, text-align.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? 
+If you didn't, how would you know which one to add to your HTML?
+
+We mostly used classes because we wanted to group certain elements together. We used ids in the beginning to format a single element.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I think ours was cleaner because we didn't use a table to format the text. Also, we used a separate stylesheet while the actual site used styling in the html file. 
+*/
+
+
+
+
+
+
+
