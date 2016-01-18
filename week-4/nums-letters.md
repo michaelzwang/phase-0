@@ -23,3 +23,24 @@ puts 365 * 24
 ```ruby
 puts 10 * 365 * 24 * 60
 ```
+
+###How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+
+Ruby handles numbers in basic arithmetic the way you would expect. The only difference is that ruby treats integers and floats differently. 
+
+###What are strings? Why and when would you use them?
+
+Strings are groups of letters. They are surrounded by quotation marks. You would use strings when you want to give something a name or value that isn't a number. 
+
+###What are local variables? Why and when would you use them?
+
+Local variable are variable that live inside the method. You would use them because they allow you to define a variable that can only be used within the scope where it was defined.
+
+###How was this challenge? Did you get a good review of some of the basics?
+
+This was a nice and simple challenge and got me familiar with using ruby files and rspec in the command line. 
+
+
+
+
+
