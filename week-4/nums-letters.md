@@ -40,6 +40,14 @@ Local variable are variable that live inside the method. You would use them beca
 
 This was a nice and simple challenge and got me familiar with using ruby files and rspec in the command line. 
 
+###Links to challenge solution files
+
+https://github.com/michaelzwang/phase-0/blob/master/week-4/simple-string.rb
+
+https://github.com/michaelzwang/phase-0/blob/master/week-4/defining-variables.rb
+
+https://github.com/michaelzwang/phase-0/blob/master/week-4/basic-math.rb
+
 
 
 
