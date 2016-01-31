@@ -70,19 +70,26 @@ end
 # => each to modify each value of the hash, since all the values in the hash are already integers, you don't need the is_a? method
 
 
-# Person 3 - Sort Data
-def my_array_sorting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# Person 3 (Bobby Reith)- Sort Data
+def my_array_sorting_method(i_want_pets)
+	i_want_pets.sort { |a, b| a.to_s <=> b.to_s }
 end
 
-def my_hash_sorting_method(source)
-   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+def my_hash_sorting_method (my_family_pets_ages)
+	my_family_pets_ages.sort_by { |name,age| age }
 end
 
 # Identify and describe the Ruby method(s) you implemented.
+# For the array the .sort method was used adding a block which compared each value to one another. 
+# Within the block the .to_s method was used so when the values were compared, it was comparing a 
+# string to a string. The sort method returns an array.
 #
+# For the hash the .sort_by method was used adding a block which took the key(name) and value(age) as
+# the arguments and sorted by the value(age). The sort_by method returns an array.
 #
-#
+# The research was fairly straight forward for the sort methods. Once I reviewed the challenge, I was
+# able to go into the Ruby Docs and find the methods needed in the array and hash sections. After looking
+# over what each method did in detail, I was able to implement them in the challenge successfully. 
 
 
 # Person 4 (Bethelhem Assefa) - Delete Matching Data
@@ -113,31 +120,46 @@ p my_family_pets_ages
 
 
 
-# Person 5 - Split Data
-def my_array_splitting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# Person 5 (Mauve Tierney) - Split Data
+
+def my_array_splitting_method(i_want_pets)
+  first_array=[]
+  second_array=[]
+  
+  first_array = i_want_pets.select{ |x| x.is_a? Integer}           
+
+  second_array = i_want_pets.select{ |x| x.is_a? String}
+
+  return Array[first_array, second_array]
+ 
 end
 
-def my_hash_splitting_method(source, age)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+def my_hash_splitting_method(my_family_pets_ages, age)
+  young_dogs = {}
+  old_dogs = {}
+
+  young_dogs = my_family_pets_ages.select{ |name, age| age <= 4 }
+
+  old_dogs = my_family_pets_ages.select{ |name, age| age > 4 }
+
+  return dogs = [young_dogs.to_a, old_dogs.to_a]
+
 end
 
-# Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+# Then create a my_hash_splitting_method that will separate the 
+# hash into two arrays based on the value. It should return two arrays,
+#  the first which includes all pets who are four years of age or younger 
+#  and the second that includes all other pets. This should not alter 
+#  the original data structure.
+# my_family_pets_ages = {"Evi" => 6, "Hoobie" => 3, "George" => 12,
+# "Bogart" => 4, "Poly" => 4, "Annabelle" => 0, "Ditto" => 3}
 
 
-# Release 1: Identify and describe the Ruby method you implemented. Teach your
-# accountability group how to use the methods.
-#
-#
-#
 
 
 # Release 3: Reflect!
 # What did you learn about researching and explaining your research to others?
-#
-#
-#
+# => Through teaching my group members about the methods I used, I was able to get a better understanding of them myself.
+# => I had to make sure I truly understood the methods before I was able to offer any explanations.
+# => It was also interesting to see how my group members approached their problems to see which new methods they used.
 #
