@@ -195,12 +195,16 @@ console.log(tharin)
 	//Once I figured that out, and had my basic initial solution, I was able to effectively build upon it an add more elements to the game.
 
 //What did you learn about creating objects and functions that interact with one another?
+	//I learned that you can access the object's property within the function
+	//The property can then be changed or used as a condition
 
 //Did you learn about any new built-in methods you could use in your refactored solution? 
 //If so, what were they and how do they work?
+	//I didn't really use new methods, but I did combine the four different move functions into one to reduce repetition
 
 //How can you access and manipulate properties of objects?
+	//Access: object_name.property
+		//=> gives property value
+	//Change property value: object_name.property = new_property_value
 
-//
-//
-//
+
