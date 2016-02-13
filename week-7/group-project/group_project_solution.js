@@ -81,3 +81,7 @@ function median(numbers) {
 // will fall below the median, and the other half will fall above it. 
 
 
+
+
+//SUMMARY
+//All tests passed!
