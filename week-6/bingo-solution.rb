@@ -106,6 +106,8 @@ class BingoBoard
     end
   end
 
+	
+
   def print_board
     puts "-------------------------------"
     puts " |B|   |I|   |N|   |G|   |O|"
@@ -156,7 +158,7 @@ class BingoBoard
     puts @letter + ":" + @number.to_s
   end
     
-  def check
+=begin def check
     if @bingo_board[0].include?(@number)
         puts "You have the number!"
         num_index = @bingo_board[0].index(@number)
@@ -182,6 +184,19 @@ class BingoBoard
     end
     puts print_board
   end
+=end
+	
+
+	def check
+  		@bingo_board.each do |column|
+    		column.each do |cell|
+      			if cell == @number
+          			cell = 'X'
+          			puts "You have the number!"
+       			end
+    		end
+  		end
+	end
 
   def print_board
     puts "-------------------------"
