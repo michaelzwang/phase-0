@@ -49,7 +49,7 @@ JOIN states ON
 regions.id = states.region_id;
 
 
-![clueless](/database-intro/clueless.png)
+![clueless](./clueless.png)
 
 
 
